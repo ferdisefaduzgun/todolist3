@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>To do List 3</title>
+</head>
+<body>
+
+  <!-- header start -->    
+  <header class="header">
+      <h1>My TODO LİST</h1>
+  </header>
+  <!-- header end -->
+
+  <!-- search start -->
+  <div class="search">
+      <input type="text" placeholder="Add..." class="todoInput">
+      <button class="addButton" type="submit">
+          <i class="fa-solid fa-plus"></i>
+      </button>
+  </div>
+  <!-- search end -->
+
+  <!-- select start -->
+  <div class="select-main">
+      <select class="select">
+          <option value="all">All</option>
+          <option value="complated">Complated</option>
+          <option value="uncomplated">Uncomplated</option>
+      </select>
+  </div>
+  <!-- select end -->
+
+  <!-- alt start -->
+  <div class="alt">
+      <ul class="todoList">
+<!--         <div class="todo">
+            <button class="checkedButton">
+                <i class="fa-solid fa-check"></i>
+            </button>
+            <li class="todo-item">Deneme</li>
+            <button class="deleteButton">
+                <i class="fa-solid fa-ban"></i>
+            </button>
+        </div> -->
+      </ul>
+  </div>
+  <!-- alt end -->
+
+  <!-- alert start  -->
+  <div class="main-alert">
+      <div class="success">Başarıyla eklendi</div>
+      <div class="warning">Input alanı boş geçilemez.</div>
+  </div>
+  <!-- alert end -->
+
+  <script src="index.js"></script>
+  
+</body>
+</html>
