@@ -13,42 +13,34 @@
 
   <!-- header start -->    
   <header class="header">
-      <h1>My TODO LİST</h1>
+      <h1>My To Do List</h1>
   </header>
   <!-- header end -->
 
   <!-- search start -->
-  <div class="search">
-      <input type="text" placeholder="Add..." class="todoInput">
-      <button class="addButton" type="submit">
-          <i class="fa-solid fa-plus"></i>
-      </button>
-  </div>
-  <!-- search end -->
-
-  <!-- select start -->
-  <div class="select-main">
-      <select class="select">
-          <option value="all">All</option>
-          <option value="complated">Complated</option>
-          <option value="uncomplated">Uncomplated</option>
-      </select>
-  </div>
+ <form>
+    <div class="search">
+        <input type="text" placeholder="Add..." class="todoInput">
+        <button class="addButton" type="submit">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+    </div>
+    <!-- search end -->
+  
+    <!-- select start -->
+    <div class="select-main">
+        <select class="filter-todo">
+            <option value="all">All</option>
+            <option value="completed">Complated</option>
+            <option value="uncompleted">Uncomplated</option>
+        </select>
+    </div>
+ </form>
   <!-- select end -->
 
   <!-- alt start -->
   <div class="alt">
-      <ul class="todoList">
-<!--         <div class="todo">
-            <button class="checkedButton">
-                <i class="fa-solid fa-check"></i>
-            </button>
-            <li class="todo-item">Deneme</li>
-            <button class="deleteButton">
-                <i class="fa-solid fa-ban"></i>
-            </button>
-        </div> -->
-      </ul>
+      <ul class="todoList"></ul>
   </div>
   <!-- alt end -->
 
